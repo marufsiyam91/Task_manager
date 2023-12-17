@@ -25,6 +25,7 @@ const AddTaskForm = () => {
     }
 
   }
+  // this is a regster from 
 
   return (
     <div className="task_form">

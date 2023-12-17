@@ -3,7 +3,6 @@ import { Context } from "../TaskContext/TaskContext"
 
 // eslint-disable-next-line react/prop-types
 const TaskList = ({taskItem}) => {
-  console.log(taskItem)
   // eslint-disable-next-line react/prop-types
   const {id, task} = taskItem
 
@@ -23,6 +22,7 @@ const TaskList = ({taskItem}) => {
     const findedTask = Tasks.find((editTask) => editTask.id === id)
     setIsEdit(true)
     setUpdate(findedTask.task)
+    console.log(findedTask.task)
   }
 
   const addEdit = (id) => {
@@ -50,7 +50,7 @@ const TaskList = ({taskItem}) => {
               isEdit ? 
               <input type="text" onChange={(e) => setUpdate(e.target.value)} value={update}/>
                 : 
-              <span style={{textDecoration: isChecked ? 'line-through' : '', color: isChecked ? 'red' : '', marginLeft: '5px'}}>{task}</span>
+              <span className="task" style={{textDecoration: isChecked ? 'line-through' : '', color: isChecked ? 'red' : ''}}>{task}</span>
             }
           </p>
         </div>

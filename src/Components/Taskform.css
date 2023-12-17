@@ -40,6 +40,7 @@ button, input{
      padding: 5px 10px;
      display: flex;
      justify-content: space-between;
+     align-items: center;
 }
 
 
@@ -65,4 +66,17 @@ button, input{
      border-radius: 5px;
      text-align: center;
      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.task{
+     /* margin-left: 5px;
+     display: block;
+     width: 285px;
+     overflow: hidden;
+     white-space: nowrap; */
+     display: inline-block;
+     font-size: 13px;
+     width: 285px;
+     overflow-wrap: break-word;
+     margin-left: 5px;
 }
