@@ -1,0 +1,68 @@
+body{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background: rgb(208, 226, 252)
+}
+
+button, input{
+     font-family: 'Montserrat', sans-serif;
+}
+
+.task_form input{
+     margin-right: 10px;
+}
+
+.task_form button{
+     padding: 8px 10px;
+     background: lightblue;
+     border: none;
+     outline: none;
+     font-weight: 600;
+     border-radius: 5px;
+}
+
+.task_form{
+     width: 450px;
+     margin: 60px 0 20px 0;
+}
+
+.taskInput{
+     width: 320px;
+     padding: 8px 16px;
+     border-radius: 5px;
+     border: 1px solid lightblue;
+     outline: none;
+}
+
+.task_list_area{
+     width: 450px;
+     padding: 5px 10px;
+     display: flex;
+     justify-content: space-between;
+}
+
+
+.button_area button{
+     margin-right: 5px;
+     padding: 4px 10px;
+     background: #fff;
+     border: 1px solid lightblue;
+     border-radius: 5px;
+}
+
+.task_container{
+     width: 450px;
+     background: #fff;
+     border-radius: 5px;
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.emptyTask{
+     width: 450px;
+     background: #fff;
+     padding: 10px;
+     border-radius: 5px;
+     text-align: center;
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}

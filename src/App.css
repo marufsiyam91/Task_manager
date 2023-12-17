@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center ;
+}
+
+
+
+.TaskForm_container{
+  margin: 50px 0;
+  max-width: 500px;
+  max-height: 650px;
+  border: 1px solid #dadada;
+  padding: 10px 10px 30px 10px;
+  border-radius: 5px;
+}
+
+.TaskForm_container input{
+  width: 250px;
+  padding: 8px 12px;
+  outline: none;
+  border: 1px solid #dadada;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.TaskForm_container button{
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  padding: 7px 12px;
+}
+
