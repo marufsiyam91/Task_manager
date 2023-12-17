@@ -72,6 +72,7 @@ button, input{
      width: 450px;
      background: #fff;
      border-radius: 5px;
+     padding: 10px 0;
      text-align: center;
      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
