@@ -37,7 +37,7 @@ const AddTaskForm = () => {
             onChange={(e) => setInput(e.target.value)}
             placeholder="Add your task"
             />
-            <button>Add Task</button>
+            <button className="addTaskbtn">Add Task</button>
         </form>
     </div>
   )

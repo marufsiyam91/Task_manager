@@ -15,7 +15,8 @@ button, input{
 
 .task_form button{
      padding: 8px 10px;
-     background: lightblue;
+     background: rgb(90, 200, 252);
+     color: #fff;
      border: none;
      outline: none;
      font-weight: 600;
@@ -79,3 +80,4 @@ button, input{
      overflow-wrap: break-word;
      margin-left: 5px;
 }
+
