@@ -1,8 +1,10 @@
 import { useContext, useState } from "react"
 import { Context } from "../TaskContext/TaskContext"
 
+// eslint-disable-next-line react/prop-types
 const TaskList = ({taskItem}) => {
   console.log(taskItem)
+  // eslint-disable-next-line react/prop-types
   const {id, task} = taskItem
 
 

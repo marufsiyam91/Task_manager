@@ -1,22 +1,17 @@
-import './App.css'
-import AddTaskForm from './components/AddTaskForm'
-import TaskItem from '../src/Components/TaskItem'
-import { GlobalProibider } from './globalProvider/GlobalProibider'
-
+import "./App.css";
+import TaskItem from "../src/Components/TaskItem";
+import { GlobalProibider } from "./globalProvider/GlobalProibider";
+import AddTaskForm from "./components/AddTaskForm";
 
 const App = () => {
-
-
   return (
     <>
       <GlobalProibider>
-          <AddTaskForm/>
-          <TaskItem/>
+        <AddTaskForm />
+        <TaskItem />
       </GlobalProibider>
     </>
-    
-  )
-  }
+  );
+};
 
-export default App
-
+export default App;
