@@ -1,15 +1,15 @@
 import "./App.css";
 import TaskItem from "../src/Components/TaskItem";
-import { GlobalProibider } from "./globalProvider/GlobalProibider";
-import AddTaskForm from "./components/AddTaskForm";
+import { GlobalProvider } from "./globalProvider/GlobalProibider";
+import AddTaskForm from "./Components/AddToTaskForm";
 
 const App = () => {
   return (
     <>
-      <GlobalProibider>
+      <GlobalProvider>
         <AddTaskForm />
         <TaskItem />
-      </GlobalProibider>
+      </GlobalProvider>
     </>
   );
 };

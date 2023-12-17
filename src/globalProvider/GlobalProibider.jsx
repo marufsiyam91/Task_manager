@@ -6,7 +6,7 @@ import { Context } from "../TaskContext/TaskContext"
 
 
 // eslint-disable-next-line react/prop-types
-export const GlobalProibider = ({children}) => {
+export const GlobalProvider = ({children}) => {
 
      const [state, dispatch] = useReducer(reducer, InitialState)
 
